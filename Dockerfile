@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-VOLUME ["/opt"]
+VOLUME ["/input", "/output"]
 
 ENV DEBIAN_FRONTEND=noninteractive
 
